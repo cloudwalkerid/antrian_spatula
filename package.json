@@ -1,0 +1,27 @@
+{
+  "name": "antrian_spatula",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "autoprefixer": "^10.4.21",
+    "firebase": "^11.6.0",
+    "vue": "^3.5.13",
+    "vue3-youtube": "^0.1.9",
+    "vuefire": "^3.2.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.3"
+  }
+}

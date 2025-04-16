@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .tabel-judul {
+      @apply bg-green-200 text-left px-2 py-2 md:px-4 md:py-3;
+  }
+  .tabel-baris-primary2 {
+      @apply bg-green-100 border px-2 py-2 md:px-4 md:py-3;
+  }
+  .tabel-baris-primary {
+      @apply bg-green-50 border px-2 py-2 md:px-4 md:py-3;
+  }
+  .tabel-baris-secondary {
+      @apply border px-2 py-2 md:px-4 md:py-3;
+  }
+  .local-label{
+      @apply block uppercase tracking-wide text-gray-700 text-xs mb-1;
+  }
+  .local-input{
+      @apply block w-full bg-violet-50 text-gray-700 border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-xs sm:text-sm disabled:opacity-70;
+  }
+  .local-button{
+      @apply text-white py-2 px-2 rounded shadow-md flex items-center;
+  }
+}
+
+.bg-glass {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    /* border: 1px solid rgba(255, 255, 255, 0.31); */
+}
